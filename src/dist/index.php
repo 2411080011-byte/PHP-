@@ -267,7 +267,7 @@
                 <!--begin::Menu Footer-->
                 <li class="user-footer">
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
-                  <a href="#" class="btn btn-default btn-flat float-end">Salir
+                  <a href="logout.php" class="btn btn-default btn-flat float-end">Salir
                   </a>
                 </li>
                 <!--end::Menu Footer-->
