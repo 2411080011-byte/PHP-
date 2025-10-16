@@ -1,0 +1,119 @@
+/* estado inicial */
+body.fade-page {
+  opacity: 0;
+  background-color: #000; /* fondo consistente */
+  will-change: opacity;
+}
+
+/* cuando ya está lista */
+body.fade-page.loaded {
+  opacity: 1;
+  transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* =========================
+   HEADER & NAVBAR
+========================= */
+.logo {
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px;
+  filter: contrast(3) brightness(0.9);
+}
+
+.opciones a {
+  border: 1px solid rgba(255, 255, 255, 0.195);
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: border 0.2s ease-in-out, background-color .2s linear, box-shadow .2s linear;
+}
+
+/* === FONDO PRINCIPAL === */
+.fondo-principal {
+  z-index: 10;
+}
+
+/* === OVERLAY === */
+.overlay,
+.overlay-img {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(40, 40, 25, 0.783);
+  z-index: 5;
+  filter: contrast(1.3) brightness(1.1);
+}
+
+.overlay-img {
+  z-index: 0;
+}
+
+/* === RESPONSIVE === */
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+  header nav {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 2.5rem;
+    width: auto;
+  }
+
+  .opciones a {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Móviles (pantallas pequeñas) */
+@media (max-width: 640px) {
+  header nav {
+    padding: 0.8rem;
+  }
+
+  .fondo-principal {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .fondo-principal-interno {
+    width: 100%;
+    height: 400px;
+  }
+
+  .logo {
+    height: 2rem;
+  }
+
+  .opciones {
+    display: none; /* menú oculto en móvil */
+  }
+
+  h1 {
+    font-size: 1.8rem !important;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  .fondo-principal {
+    padding: 1rem;
+    text-align: center;
+  }
+}

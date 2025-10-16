@@ -235,7 +235,7 @@
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
-                <span class="d-none d-md-inline">Bienvenido,<?php
+                <span class="d-none d-md-inline">Bienvenido <?php
                   echo $_SESSION["username"];
                 ?> </span>
               </a>

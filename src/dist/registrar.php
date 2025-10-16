@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmt->execute([$username, $password])) {
 
-        echo "Usuario registrado correctamente. <a href='login.php'>Iniciar sesión</a>";
+        echo "Usuario registrado correctamente. <a href='login_2.0.php'>Iniciar sesión</a>";
 
     } else {
 
@@ -26,7 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-
+<!-- FORMULARIO BASE PARA REGISTRAR UN NUEVO USUARIO -->
+<!-- 
 <form method="POST">
 
     <input type="text" name="username" placeholder="Usuario" required><br>
@@ -35,4 +36,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <button type="submit">Registrar</button>
 
-</form>
+</form> -->
