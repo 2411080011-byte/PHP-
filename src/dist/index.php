@@ -3,7 +3,7 @@
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <!--begin::Head-->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -322,21 +322,21 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="./index.html" class="nav-link active">
+                    <a href="index.php" class="nav-link active">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v1</p>
+                      <p>Panel Principal</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./index2.html" class="nav-link">
+                    <a href="paneles_de_control/login_paneles.php" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v2</p>
+                      <p>Tailwind</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./index3.html" class="nav-link">
+                    <a href="paneles_de_control/login_paneles.php" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v3</p>
+                      <p>Boostrap</p>
                     </a>
                   </li>
                 </ul>

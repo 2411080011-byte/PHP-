@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let test = prompt("Hello", "llll");
+        let name = true;
+        let a = name ? "2w" : "ws";
+        console.log(a);
+        let steps = [3, 2, 1];
+for (let n of steps)
+console.log(n);
+
+let car = {make: "Citroen", model: "DS"};
+for (let f in car)
+console.log(f);
+
+for (let a = 3; a < 4; a++) {
+    console.log("test");
+}
+
+let animals = [12,14,55,54]
+for (let a of animals)
+console.log(a);
+
+for (let a = 0; a<animals.length; a+= 2)
+console.log(a);
+
+for (let x = 10; x > 1; x -= 2)
+console.log("hello");
+
+
+function testssa(counter) {
+     console.log("test");
+     if (counter > 0)
+         testssa(--counter);
+}
+testssa(3);
+
+let xs = 10;
+function testss(xs) {
+     console.log(xs);
+}
+testss(20);
+
+let sumaaa = (a,b) => a+b;
+console.log(sumaaa(20,2));
+
+let animales = ["perro","gato","vaca","pecesito","tiburon"];
+animales.forEach(a => console.log(a));
+
+let show = function () {
+     console.log("test");
+}
+setTimeout(show, 2000);
+
+try {
+
+    ocnsole.log("start");
+
+} catch (error) {
+
+    console.log("error");
+
+}
+
+console.log("end");
+
+
+    </script>
+</body>
+</html>

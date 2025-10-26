@@ -7,47 +7,47 @@
     <link rel="stylesheet" href="css/login_1.css">
 </head>
 <body>
-<div class="container" id="container">
+<div class="container" id="container">	
 	<div class="form-container sign-up-container">
 		<form action="registrar.php" method="POST">
-			<h1>Create Account</h1>
+			<h1>Crear una cuenta</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i src="assets/img/facebook.png"></i></a>
 				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
-			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" name="username"/>
-			<input type="password" placeholder="Password" name="password"/>
-			<button>Sign Up</button>
+			<span>o utiliza tu correo electrónico para registrarte</span>
+			<input type="text" placeholder="Nombre" name="username"/>
+			<input type="password" placeholder="Contraseña" name="password"/>
+			<button>Registrarme</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="login.php" method="POST">
-			<h1>Sign in</h1>
+		<form action="login_controlador.php" method="POST">
+			<h1>Iniciar sesión</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
 				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
-			<span>or use your account</span>
-			<input type="text" placeholder="Name" name="username"/>
-			<input type="password" placeholder="Password" name="password"/>
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
+			<span>o usa tu cuenta</span>
+			<input type="text" placeholder="Nombre" name="username"/>
+			<input type="password" placeholder="Contraseña" name="password"/>
+			<a href="#">¿Olvidaste tu contraseña?</a>
+			<button>INICIAR SESIÓN</button>
 		</form>
 	</div>
 	<div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
-				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Sign In</button>
+				<h1>¡Bienvenido de nuevo!</h1>
+				<p>Para mantenerse conectado con nosotros, inicia sesión con su tu cuenta ya creada</p>
+				<button class="ghost" id="signIn">Iniciar Sesión</button>
 			</div>
 			<div class="overlay-panel overlay-right">
-				<h1>Hello, Friend!</h1>
-				<p>Enter your personal details and start journey with us</p>
-				<button class="ghost" id="signUp">Sign Up</button>
+				<h1>¡Hola, amigo!</h1>
+				<p>Introduce tus datos personales y comienza tu viaje con nosotros</p>
+				<button class="ghost" id="signUp">Registrarme</button>
 			</div>
 		</div>
 	</div>
