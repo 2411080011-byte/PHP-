@@ -77,11 +77,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body class="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300 relative">
 
     <!-- Botón de modo oscuro -->
-    <button id="darkModeBtn"
+    <!-- <button id="darkModeBtn"
         class="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-sm font-semibold px-3 py-2 rounded-lg shadow-md transition-all duration-200">
         <i data-lucide="moon" class="w-5 h-5"></i>
         <span id="modoTexto">Modo Claro</span>
-    </button>
+    </button> -->
 
     <div class="bg-white dark:bg-gray-800 p-10 rounded-3xl shadow-xl w-full max-w-sm border border-gray-200 dark:border-gray-700 transition-colors duration-300">
         <h1 class="text-3xl font-semibold text-center mb-6 text-gray-800 dark:text-gray-100">Acceso al Sistema</h1>

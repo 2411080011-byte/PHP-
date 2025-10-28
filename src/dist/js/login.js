@@ -9,3 +9,4 @@ button_right.addEventListener('click', ()=>{
 button_left.addEventListener('click', ()=>{
     container.classList.remove("activo");
 })
+

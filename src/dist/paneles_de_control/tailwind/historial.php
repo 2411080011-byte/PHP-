@@ -41,11 +41,11 @@
         <h1 class="text-2xl md:text-3xl font-bold text-center flex-1 text-white">Historial de Operaciones</h1>
 
         <div class="flex items-center gap-3">
-            <button id="darkModeBtn"
+            <!-- <button id="darkModeBtn"
                 class="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 text-white text-sm font-semibold px-3 py-2 rounded-lg shadow-md transition-all duration-200">
                 <i data-lucide="moon" class="w-5 h-5"></i>
                 <span id="modoTexto">Modo Claro</span>
-            </button>
+            </button> -->
 
             <a href="../../tailwind.php"
                 class="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-md transition-all duration-200">

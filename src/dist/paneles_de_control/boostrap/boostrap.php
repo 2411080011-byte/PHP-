@@ -236,7 +236,7 @@ mysqli_query($conexion, "CREATE TABLE IF NOT EXISTS operaciones (
       </a>
     </div>
 
-    <input type="text" id="searchInput" class="form-control search-input mx-auto shadow-sm" placeholder="Buscar vendedor...">
+    <input type="text" id="searchInput" class="form-control search-input mx-auto shadow-sm" placeholder="Buscar vendedor..." style="color: white;">
 
     <div class="table-container mt-3">
       <table class="table table-hover table-striped align-middle" id="vendedoresTable">

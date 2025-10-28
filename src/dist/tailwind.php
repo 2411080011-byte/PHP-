@@ -142,14 +142,6 @@ if (!isset($_SESSION['username'])) {
                 </a>
                 <ul class="mt-1 ml-4 space-y-1">
                   <li>
-                    <a href="index.php" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm dark:hover:bg-gray-700 dark:text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 24 24" fill="currentColor">
-                        <circle cx="12" cy="12" r="4" />
-                      </svg>
-                      Panel Principal
-                    </a>
-                  </li>
-                  <li>
                     <a href="tailwind.php" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm hover:bg-gray-200 dark:bg-gray-700">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 24 24" fill="currentColor">
                         <circle cx="12" cy="12" r="4" />

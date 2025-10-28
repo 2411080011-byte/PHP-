@@ -99,12 +99,10 @@ body{
     border: none;
     background-color: rgb(18, 15, 170);
     color: white;
-    transition: letter-spacing .28s linear;
 }
 
 .form-login .button-container input:hover, .form-register .button-container input:hover{
     background-color:rgb(13, 10, 217);
-    letter-spacing: 2px;
 }
 
 .form-login p, .form-register p{
